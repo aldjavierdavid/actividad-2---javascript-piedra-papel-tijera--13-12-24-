@@ -1,0 +1,14 @@
+#parteDeAbajo > h2 {
+    height: fit-content;
+}
+
+#botones * {
+width: 10em;
+}
+
+html {
+    background-color: rgb(189, 231, 200);
+    color: rgb(255, 225, 0);
+}
+
+
