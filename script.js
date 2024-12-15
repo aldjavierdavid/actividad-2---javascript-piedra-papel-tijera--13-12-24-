@@ -45,7 +45,7 @@ function definirGanador(seleccionJugador, seleccionCPU) {
 
   if (seleccionJugador === seleccionCPU) {
     empatadas++
-    document.getElementById('empatadas').innerHTML = 'Empatadas:' + empatadas
+    document.getElementById('empatadas').innerHTML = 'Empatadas: ' + empatadas
     document.getElementById('outResultado').innerHTML = 'Empate!'
     document.getElementById('outResultado').setAttribute('style', 'color: rgb(255, 225, 0)')
     console.log("¡Es un empate!");
